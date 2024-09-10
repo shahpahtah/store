@@ -11,6 +11,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "infrastructure", "infrastru
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Store.Memory", "infrastructure\Store.Memory\Store.Memory.csproj", "{9B734EA4-3963-45B6-9935-42F37F87BA23}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "presentation", "presentation", "{27394FF7-B10A-4C1A-AABF-576DDD3D4565}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Store.Web", "presentation\Store.Web\Store.Web.csproj", "{EF89099A-A877-44B1-8983-F9C3C78167FE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +29,10 @@ Global
 		{9B734EA4-3963-45B6-9935-42F37F87BA23}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9B734EA4-3963-45B6-9935-42F37F87BA23}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9B734EA4-3963-45B6-9935-42F37F87BA23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF89099A-A877-44B1-8983-F9C3C78167FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF89099A-A877-44B1-8983-F9C3C78167FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF89099A-A877-44B1-8983-F9C3C78167FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF89099A-A877-44B1-8983-F9C3C78167FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,6 +40,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{3AB486A3-7FD1-40E9-8047-C23ED5A0AB4B} = {A677389B-2799-4ED1-B6B1-BF7955EA5D99}
 		{9B734EA4-3963-45B6-9935-42F37F87BA23} = {8BF8E4FD-A764-49F6-A021-8A6E46B24CD6}
+		{EF89099A-A877-44B1-8983-F9C3C78167FE} = {27394FF7-B10A-4C1A-AABF-576DDD3D4565}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E3DD8EC4-3C35-402D-B471-10BE69B3D6FA}
